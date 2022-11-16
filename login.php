@@ -51,7 +51,7 @@ if (isset($_POST['submit']) && !empty($_POST['usuario']) && !empty($_POST['passw
         <title>unidad05</title>
     </head>
 
-    <body style="background-color: gray">
+    <body>
         <section>
             <h1>LOGIN</h1>
             <?php

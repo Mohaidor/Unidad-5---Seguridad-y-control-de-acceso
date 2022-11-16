@@ -49,6 +49,7 @@ if (!empty($url)  && !is_numeric($id) || empty($_GET['titulo']) || empty($_GET['
     header("location:../Vista/$url");
     exit();
 } else {
+
     //Aquí se llega si esta todo correcto y se realiza el INSERT mediante el modelo
     require_once('conexion.php');
     $pdoObject = getConexion();
@@ -63,7 +64,7 @@ if (!empty($url)  && !is_numeric($id) || empty($_GET['titulo']) || empty($_GET['
     try {
         //Prueba a realizar el insert y si es correcto retornará 1(1 affected rows->1 libro insertado)
         $sentencia->execute();
-        header('../pagina.php');
+        header('location:../pagina.php');
         exit();
     } catch (Exception $e) {
         //Si hay algún problema retorno un string con un error

@@ -34,7 +34,7 @@ if (isset($_POST['submit']) && !empty($_POST['usuario']) && !empty($_POST['passw
         <title>unidad05</title>
     </head>
 
-    <body style="background-color: gray">
+    <body>
         <section>
             <h1>Registrarme</h1>
             <!--Para cada input se mantiene el valor si se ha introducido y si está vacío se muestra error-->

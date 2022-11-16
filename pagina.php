@@ -31,7 +31,7 @@ function muestraCabecera()
     <title>Ejercicio 4 - PDO</title>
 </head>
 
-<body style="background-color: gray">
+<body>
     <!--Control de que existe el usuario. Si se carga esta página por primera vez y no estas logueado redirige a login-->
     <?php if (!isset($_SESSION['usuario'])) {
         header('location:./login.php');

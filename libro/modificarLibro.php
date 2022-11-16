@@ -34,7 +34,7 @@ if (
     <title>Ejercicio 4 - PDO</title>
 </head>
 
-<body style="background: gray;">
+<body>
     <h1>Modificar libro</h1>
     <form action="" method="get">
         <!--Se mantienen los values si se han introducido, errores si no-->
